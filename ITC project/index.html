@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Ralph D. Casul | Portfolio</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="sticky top-0 z-50 bg-slate-900 shadow">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <a href="#home" class="text-white font-bold text-lg">John Ralph D. Casul</a>
+      <ul class="flex flex-wrap justify-center gap-5 text-sm text-slate-200">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Sample Project</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== HOME ===================== -->
+  <section id="home" class="bg-slate-800 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-20 flex flex-col-reverse md:flex-row items-center gap-10">
+
+      <!-- LEFT: words -->
+      <div class="md:w-1/2 text-center md:text-left">
+        <p class="text-sky-300 mb-3">Hello, I'm</p>
+        <h1 class="text-4xl sm:text-5xl font-bold mb-4">John Ralph D. Casul</h1>
+        <p class="text-lg text-slate-300 mb-8">
+          A beginner in IT who loves coding and dreams of becoming a successful data analyst.
+        </p>
+        <div class="flex justify-center md:justify-start gap-3">
+          <a href="#projects" class="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-6 py-3 rounded-lg transition">
+            View my project
+          </a>
+          <a href="#contact" class="border border-slate-400 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-lg transition">
+            Contact me
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT: photo -->
+      <div class="md:w-1/2 flex justify-center">
+        <img src="images/profile.jpg" alt="John Ralph D. Casul"
+             class="w-64 h-64 sm:w-80 sm:h-80 object-cover object-top rounded-xl border-4 border-sky-500" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">About Me</h2>
+
+      <p class="max-w-3xl mx-auto text-center text-slate-600 mb-12">
+        I am John Ralph D. Casul, new to the world of IT. I enjoy learning how programs work,
+        and I am building my skills one step at a time.
+      </p>
+
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+        <figure class="card">
+          <img src="images/about-games.jpg" alt="Person playing games on a computer" class="card-img" />
+          <figcaption class="p-4 text-center">I love to play games</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="images/about-coding.jpg" alt="Code on computer screens" class="card-img" />
+          <figcaption class="p-4 text-center">My interest is coding</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="images/about-goal.jpg" alt="Person working on a computer" class="card-img" />
+          <figcaption class="p-4 text-center">My goal is to become a successful data analyst</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="images/about-school.png" alt="Cordova Public College logo" class="card-img bg-white object-contain" />
+          <figcaption class="p-4 text-center">My School is Cordova, Public, College</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">Skills</h2>
+
+      <p class="max-w-3xl mx-auto text-center text-slate-600 mb-12">
+        Hands-on experiences that taught me teamwork, patience, and following instructions.
+      </p>
+
+      <div class="grid gap-8 md:grid-cols-3">
+
+        <article class="card">
+          <img src="images/experience-1.jpg" alt="Alternating the color of the lights" class="card-img h-80" />
+          <div class="p-5 text-center">
+            <h3 class="text-xl font-bold mb-2">1st Experience</h3>
+            <p class="text-slate-600">My first experience, we were told to alternate the color of the lights.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/experience-2.jpg" alt="Helping airmen fix lights in a theater" class="card-img h-80" />
+          <div class="p-5 text-center">
+            <h3 class="text-xl font-bold mb-2">2nd Experience</h3>
+            <p class="text-slate-600">My 2nd experience is we assist the airmen to fix the lights in a theater.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/experience-3.jpg" alt="Painting the wall white" class="card-img h-80" />
+          <div class="p-5 text-center">
+            <h3 class="text-xl font-bold mb-2">3rd Experience</h3>
+            <p class="text-slate-600">My 3rd experience is we were told to paint the wall white.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SAMPLE PROJECT ===================== -->
+  <section id="projects" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">Sample Project</h2>
+
+      <div class="grid gap-8 md:grid-cols-2">
+
+        <article class="card">
+          <img src="images/project-coding.png" alt="C program code" class="card-img h-72 object-cover object-top" />
+          <div class="p-5 text-center">
+            <h3 class="text-2xl font-bold mb-2">Coding</h3>
+            <p class="text-slate-600">
+              This code snippet showcases a program written in C, demonstrating the use of
+              conditional statements and basic error handling. It highlights core programming
+              concepts such as control flow, input validation, and structuring logic to handle
+              different cases within a program.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/project-flowchart.png" alt="Flowchart made in draw.io" class="card-img h-72 object-cover object-top" />
+          <div class="p-5 text-center">
+            <h3 class="text-2xl font-bold mb-2">Flowchart</h3>
+            <p class="text-slate-600">
+              This flowchart represents an algorithm designed using draw.io, illustrating how a
+              process flows through a series of steps and decision points.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ME ===================== -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="grid gap-8 md:grid-cols-3">
+
+        <div class="card text-center p-6">
+          <img src="images/contact-phone.jpg" alt="Phone icon" class="w-32 h-32 object-contain mx-auto mb-4" />
+          <h3 class="text-xl font-bold mb-2">Contact No.</h3>
+          <p class="text-slate-600">0927 875 7098</p>
+        </div>
+
+        <div class="card text-center p-6">
+          <img src="images/contact-email.jpg" alt="Email icon" class="w-32 h-32 object-contain mx-auto mb-4" />
+          <h3 class="text-xl font-bold mb-2">Email</h3>
+          <p class="text-slate-600 break-words">johnralphcasul19@gmail.com</p>
+        </div>
+
+        <div class="card text-center p-6">
+          <img src="images/contact-address.png" alt="House icon" class="w-32 h-32 object-contain mx-auto mb-4" />
+          <h3 class="text-xl font-bold mb-2">Address</h3>
+          <p class="text-slate-600">Pilipog, Cordova, Cebu</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-slate-900 text-slate-300 text-center py-6 text-sm">
+    <p>&copy; 2026 John Ralph D. Casul. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
